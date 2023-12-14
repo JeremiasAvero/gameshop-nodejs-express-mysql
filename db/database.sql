@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS gamershop;
+
+USE gamershop;
+
+CREATE TABLE products (
+    id INT(11) NOT NULL,
+    name VARCHAR(100) DEFAULT NULL,
+    description VARCHAR(1000) DEFAULT NULL,
+    price  DECIMAL(12) DEFAULT NULL,
+    imageUrl VARCHAR(1000) DEFAULT NULL,
+    brand VARCHAR(200) DEFAULT NULL,
+    category VARCHAR(200) DEFAULT NULL,
+    PRIMARY KEY id
+)
+

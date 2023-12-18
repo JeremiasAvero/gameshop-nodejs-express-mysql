@@ -19,7 +19,7 @@ const swaggerSpec = {
     },
     servers: [
       {
-        url: "http://localhost:3000",
+        url: "https://gameshop-nodejs-express-mysql-production.up.railway.app",
       },
     ],
   },

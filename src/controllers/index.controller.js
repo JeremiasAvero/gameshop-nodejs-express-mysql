@@ -3,7 +3,8 @@ import { conexion } from "../db.js"
 
 export const index = (req,res) => {
     res.json({
-        message: "Welcome to TiendaGamer API"
+        welcome: "Welcome to the Gamingshop API",
+        documentation: "Go to /api-doc for read documentation"
     })
 } 
 
